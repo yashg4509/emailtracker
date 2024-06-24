@@ -82,6 +82,7 @@ if st.button("Sign In"):
             })
 
         df = pd.DataFrame(categorized_data)
+        print(df)
         st.write("Tracked Applications", df)
         
     except Exception as e:
